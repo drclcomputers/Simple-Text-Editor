@@ -7,5 +7,7 @@ When started, you are presented with 3 options:
 Don't forget to add the address if you want to save the file in a different location, other than the folder where the program is located!
 Hope it'll be useful for your use-cases!
 
+To exit WRITE mode type 'exit' on a new line without the quotation marks. This word won't be included in the actual file.
+
 Signed,
 DRCLComputers
