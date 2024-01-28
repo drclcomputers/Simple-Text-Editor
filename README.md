@@ -8,3 +8,5 @@ When started, you are presented with 3 options:
 2. Open - Opens a file
 3. Exit - Closes the editor
 Don't forget to add the address if you want to save the file in a different location, other than the folder where the program is located!
+
+To exit WRITE mode type 'exit' on a new line without the quotation marks. This word won't be included in the actual file.
