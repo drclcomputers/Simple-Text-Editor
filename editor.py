@@ -27,7 +27,10 @@ while(action!='e'):
                 with open(filename, 'r') as f:
                     data=f.readlines()
                     for i in range(1, len(data)+1):
-                        print(i, str(data[i-1])[:-1])
+                        if i==len(data):
+                            print(i, str(data[i-1]))
+                        else:
+                            print(i, str(data[i-1])[:-1])
                     line=input("What line to edit (e - exit): ")
                     if line=='e':
                         pass
