@@ -1,4 +1,4 @@
-This is a file created with this simple text editor.
+This is a file created with this Simple Text Editor.
 It can read any format and doesn't require a file extension.
 When started, you are presented with 3 options:
 1. Write - Creates a new file
