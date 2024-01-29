@@ -15,9 +15,10 @@ while(action!='e'):
             if text!='exit':
                 data.append(text)
         filename=input("Input filename: ")
-        with open(filename, 'w') as f:
-            for i in range(len(data)):
-                f.write(data[i]+"\n")
+        if(filename!=""):
+            with open(filename, 'w') as f:
+                for i in range(len(data)):
+                    f.write(data[i]+"\n")
 
     if(action=='o'):
         filename=input("Input filename: ")
