@@ -1,5 +1,5 @@
 # Simple-Text-Editor
-A very basic text editor made in python
+A very basic text editor written originally in Python and re-written in C++.
 
 This is a file created with this simple text editor.
 It can read any format and doesn't require a file extension.
