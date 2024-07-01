@@ -1,2 +1,3 @@
-#include "editor.h"
+#include "editor.hpp"
+
 int main();
