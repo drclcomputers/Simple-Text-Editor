@@ -1,14 +1,10 @@
 from os import name, system
-
 action=''
-
 while(action!='e'):
     data=[]
     text=''
     print("Simple Text Editor")
-
     action=input('Write (w), Open (o), Exit (e): ')
-
     if(action=='w'):
         while(text!="exit"):
             text=input()
@@ -19,7 +15,6 @@ while(action!='e'):
             with open(filename, 'w') as f:
                 for i in range(len(data)):
                     f.write(data[i]+"\n")
-
     if(action=='o'):
         filename=input("Input filename: ")
         try:
@@ -59,10 +54,7 @@ while(action!='e'):
                 pass
             else:
                 action='e'
-
     if name=='nt':
         system("cls")
     else:
         system("clear")
-        
-        
